@@ -1,0 +1,57 @@
+.container {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.title {
+  padding-top: 1rem;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  height: 2.25rem;
+  font-family: "Nunito", monospace;
+  padding-bottom: 1rem;
+}
+
+.swiperContainer {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  margin: auto;
+  padding: auto;
+}
+
+.infoText {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  font-weight: 500;
+}
+
+.infoText a:hover {
+  cursor: pointer;
+}
+
+.mobileSwiper {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: fit-content;
+  }
+}

@@ -1,0 +1,52 @@
+.landing_container {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 90%;
+  opacity: 50%;
+  animation: bounce ease 1s infinite;
+}
+
+.project {
+  overflow: hidden;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-25px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.toTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background-color: #6666ff;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .landing_container {
+    flex-direction: column;
+  }
+}
