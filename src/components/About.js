@@ -9,7 +9,7 @@ const About = () => {
       <h1 className={styles.title}>About me!!</h1>
       <div className={styles.about}>
         <div className={styles.content}>
-          I am Shatakshi Saxena,a 3rd year B.Techstudent at Thapar Institute Of Engineering
+          I am Shatakshi Saxena,a 4th year B.Techstudent at Thapar Institute Of Engineering
           And Technology, Patiala. I am a{" "}
           <span className={styles.purple}>Frontend Web Developer</span> and have experience in
           <span className={styles.purple}> Cloud Computing (AWS), Artificial Intelligence, Machine Learning and Deep Learning</span>.
@@ -22,12 +22,14 @@ const About = () => {
           I have been awarded the AWS AI & ML Scholarship 2023. AWS has sponsored enrollment in the AI Programming with Python 
 Nanodegree by Udacity.
           My Skills include:
-          Programming Languages : C/C++, Java, Python, JavaScipt, R, Go, MATLAB
-          Library/Frameworks : NumPy, Pandas, PyTorch, Tensorflow, Scikit-learn, BeautifulSoup, Selenium, Bootstrap, jQuery
-          Tools/Platforms : Jupyter, Google Colab, Anaconda , Jira, VS Code, Android Studio, AutoCad, Git
-          Databases : SQL (MySQL, Oracle) , NoSQL (MongoDB), PostgreSQL
-          Others : Artificial Intelligence, Machine Learning, Deep Learning, Web Dev (HTML, CSS, JS+MERN), UI/UX, DSA, OS (Windows, Linux), Computer Networks, Network Programming, Web Scraping using Python, System Design (Basics), Software Development Lifecycle, Agile Methodology, Cloud Computing (AWS), Data Visualization and Analytics
-        </div>
+Programming Languages : C/C++, Java, Python   
+Library/Frameworks : NumPy, Pandas, PyTorch, PySpark, Tensorflow, Scikit-learn, Matplotlib, BeautifulSoup, Bootstrap, Flask 
+Tools/Platforms : Jupyter, Google Colab, Anaconda , Power Bi, Tableau, VS Code, Git, MS Office Suite. 
+Databases : SQL (MySQL, Oracle) , NoSQL (MongoDB) 
+Others : Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, Natural Language Processing (LLMs), Data Visualization and 
+Analytics, Big Data Analytics, Information Retrieval, Quantum Computing, Cloud Computing, (AWS), UI/UX, Agile and Scrum, Software 
+Development Life Cycle.           
+</div>
         
         <div className={styles.abstract}>
           <Timeline />
